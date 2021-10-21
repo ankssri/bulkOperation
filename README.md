@@ -9,14 +9,12 @@ Included nodejs files :
 4. reformatJson.js (Bonus file to reformat json file to change key names requried for File upload query. This scenario is specific to Files API as key name of downloaded file is different)
 
 bulkDownload.js executes following steps
-/* 
 1. Form the mutation with bulkOperationsQuery. Update pagination to desired limit e.g. 100,000 for bulk operation 
 2. bulkOperation runs on Shopify servers and only 1 bulkOperation can execute for a store at a time.
 3. Check status of bulkOperationRunQuery status and get URL link to download file. 
    You can use webhook option also instead of polling
 4. Generated file will be of the format ".jsonl" . Download .jsonl file. 
 5. Convert .jsonl to .json format ( done by jsonlTojson.js )
-*/
 
 Execution steps:
 
