@@ -21,3 +21,4 @@ Execution steps:
 Step 1: node bulkDownload.js
 Step 3: node reformatJson.js ( this file needs to be made generic to cover all scenarios)
 Step 2: node UploadFiles.js
+
