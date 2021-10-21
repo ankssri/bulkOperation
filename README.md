@@ -1,6 +1,6 @@
 # bulkOperation
 
-Using GraphQL to download URLs list using bulkOperation and upload URLs list to another Shopify store using GraphQL
+Using GraphQL to download URLs list with bulkOperation and upload URLs list to another Shopify store using GraphQL
 
 Included nodejs files :
 1. bulkDownload.js
