@@ -18,6 +18,6 @@ bulkDownload.js executes following steps
 
 Execution steps:
 
-Step 1: node bulkDownload.js
-Step 2: node reformatJson.js ( this file needs to be made generic to cover all scenarios)
+Step 1: node bulkDownload.js <br>
+Step 2: node reformatJson.js ( this file needs to be made generic to cover all scenarios) <br>
 Step 3: node UploadFiles.js
