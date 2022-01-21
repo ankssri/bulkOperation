@@ -12,6 +12,7 @@ var axios = require('axios')
 
 /* VARIABLES TO CHANGE */
 const store = "xstack"; // Add your store name
+const apiversion = "2021-07" // Use latest api version
 const api_token = ""; // Add your token here
 var maxBatchLimit = 5000;
 
@@ -20,7 +21,7 @@ const storeHeaders = {
     "X-Shopify-Access-Token": api_token,
     "Content-Type": "application/json"
 };
-const storeUrl = `https://${store}.myshopify.com/admin/api/2021-07/graphql.json`;
+const storeUrl = `https://${store}.myshopify.com/admin/api/${apiversion}/graphql.json`;
 
 
 getFilesBulkOperation(); //Main function to start execution
