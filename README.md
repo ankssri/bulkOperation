@@ -1,6 +1,6 @@
 # bulkOperation
 
-Node js code to download "Files" (Settings > Files) URLs list with Shopify bulkOperation API (GraphQL) and upload URLs list to another Shopify store (Settins > Files) using File API (GraphQL).
+Node js code to download "Files" (Settings > Files) URLs list with Shopify bulkOperation API (GraphQL) and upload URLs list to another Shopify store (Settings > Files) using File API (GraphQL).
 
 Included nodejs files :
 1. bulkDownload.js
