@@ -21,14 +21,14 @@ bulkDownload.js executes following steps
 4. Generated file will be of the format ".jsonl" . Download .jsonl file. 
 5. Convert .jsonl to .json format ( done by jsonlTojson.js )
 
-Execution steps:
-For "Files" 
+Execution steps: <br>
+For "Files" <br>
 Step 1: node bulkDownload.js <br>
 Step 2: node reformatJson.js ( this file needs to be made generic to cover all scenarios) <br>
-Step 3: node UploadFiles.js
+Step 3: node UploadFiles.js <br>
 
-Execution steps:
-For "Customers" 
+Execution steps: <br>
+For "Customers" <br>
 Step 1: node  bulkGetCustomerGID.js  <br>
-Step 2: node jsonlTojson.js
+Step 2: node jsonlTojson.js <br>
 Step 3: node UpdateCustomersEmailMarketing.js
