@@ -10,8 +10,8 @@ For "Files"
 4. reformatJson.js (To reformat json file to change key names requried for File upload query. This scenario is specific to Files API as key name of downloaded file is different)
 
 For "Customer email marketing" status update
-5. bulkGetCustomerGID.js : New file added - Get all customer ids for which email marketing status is not "SUBSCRIBED"
-6. UpdateCustomersEmailMarketing.js : New file added - Email subscription status update using mutation customerEmailMarketingConsentUpdate 
+5. bulkGetCustomerGID.js : New file added - Get all customer ids for which email marketing status is not "SUBSCRIBED".
+6. UpdateCustomersEmailMarketing.js : New file added - Email subscription status update using mutation customerEmailMarketingConsentUpdate
 
 bulkDownload.js executes following steps
 1. Form the mutation with bulkOperationsQuery. Update pagination to desired limit e.g. 100,000 for bulk operation 
