@@ -7,6 +7,7 @@ Included nodejs files :
 2. jsonlTojson.js (bulkOperation.js references this file to convert .jsonl file .json )
 3. UploadFiles.js
 4. reformatJson.js (To reformat json file to change key names requried for File upload query. This scenario is specific to Files API as key name of downloaded file is different)
+5. UpdateCustomersEmailMarketing.js : New file added for customerEmailMarketingConsentUpdate 
 
 bulkDownload.js executes following steps
 1. Form the mutation with bulkOperationsQuery. Update pagination to desired limit e.g. 100,000 for bulk operation 
